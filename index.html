@@ -42,13 +42,13 @@
     <script src="https://kit.fontawesome.com/2e285c83b5.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="">
     <!-- header section -->
     <header class="container mx-auto font-manrope">
-        <div class="hero">
-            <div class="hero-content flex-col-reverse lg:flex-row-reverse">
+        <div class="my-20">
+            <div class="flex items-center justify-between flex-col-reverse lg:flex-row-reverse">
                 <div>
-                    <img src="./images/banner.png" class="max-w-sm bg-white mt-28" />
+                    <img src="./images/banner.png" class=" bg-white mt-28" />
                     <div class="-mt-16 flex items-center gap-3 rounded-xl bg-white drop-shadow-lg p-5 w-64">
                         <i class="fa-solid fa-star text-3xl text-[#FFC850]"></i>
                         <div>
@@ -270,7 +270,62 @@
     </main>
 
     <!-- footer section -->
-    <footer></footer>
+    <footer class="lg:px-48 lg:py-10 bg-base-200 text-base-content mt-32 font-manrope bg-[#ffe8e7]">
+        <div class="flex items-center justify-between my-24">
+            <img src="./images/cup.png" alt="">
+            <div class="flex items-center justify-center gap-10">
+                <p class="font-medium text-xl">Ready to get started?</p>
+                <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-[#FFF] text-xl font-bold px-5">Get
+                    Started</button>
+            </div>
+        </div>
+        <div class="footer lg:flex lg:gap-11">
+            <div>
+                <span class="footer-title">Quick Links</span>
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Insurance</a>
+                <a class="link link-hover">Privacy Policy</a>
+            </div>
+            <div>
+                <span class="footer-title">Our Service</span>
+                <a class="link link-hover">Life Insurance</a>
+                <a class="link link-hover">Car Insurance</a>
+                <a class="link link-hover">Health Insurance</a>
+                <a class="link link-hover">House Insurance</a>
+            </div>
+            <div>
+                <span class="footer-title">Help</span>
+                <a class="link link-hover">FAQs</a>
+                <a class="link link-hover">Contact Us</a>
+            </div>
+            <div class="lg:pl-60">
+                <span class="footer-title">Newsletter</span>
+                <div class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text text-2xl font-semibold">Subscribe to our newsletters</span>
+                    </label>
+                    <div class="flex items-center gap-5">
+                        <input type="text" placeholder="Email address"
+                            class="py-4 bg-transparent border-b-2 border-black outline-none" />
+                        <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] rounded-full text-white">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                    <div class="flex items-center pt-10 gap-6">
+                        <a href=""><img src="./social-icons/icons8-facebook-40.png" alt=""></a>
+                        <a href=""><img src="./social-icons/icons8-twitter-40.png" alt=""></a>
+                        <a href=""><img src="./social-icons/icons8-instagram-40.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-14 text-center">
+            <p class="text-[#494949] text-base font-medium">© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+
+    </footer>
 </body>
 
 </html>
